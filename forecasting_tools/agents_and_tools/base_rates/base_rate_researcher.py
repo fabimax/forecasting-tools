@@ -301,7 +301,7 @@ class BaseRateResearcher(QuestionResponder):
             1) '{numerator_reference_class.hit_description_with_dates_included}' divided by days as a percentage?
             2) '{numerator_reference_class.hit_description_with_dates_included}' divided by a class of events as a percentage?
 
-            For instance when predicting whether Apple will get sued related to a recent lawsuit, it is more useful to know how often Apple has been successfully sued for patent violations per time they are sued (event) than per day.
+            For instance when predicting whether Apple will lose an ongoing patent lawsuit, it is more useful to know how often Apple has lost patent lawsuits per time they are sued for patent violations (event) than per day.
             However it is more useful to know how often a meteorite hits the US per day since there is no clear event that causes a meteorite to hit the US.
             Your answer should only be either {DenominatorOption.PER_DAY.name} or {DenominatorOption.PER_EVENT.name}.
 
